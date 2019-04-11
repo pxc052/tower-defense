@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        target = Waypoints.waypoints[waypointIndex];
+        target = Waypoints.waypoints[0];
     }
 
     // Update is called once per frame
@@ -25,7 +25,6 @@ public class Enemy : MonoBehaviour
         {
             GetNextWaypoint();
         }
-
     }
 
     void GetNextWaypoint()

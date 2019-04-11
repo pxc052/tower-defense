@@ -61,7 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Turret.cs" />
     <Compile Include="Assets\Scripts\Waypoints.cs" />
+    <Compile Include="Assets\Scripts\WaySpawner.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/emg/Desktop/tower-defense/Tower Defense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

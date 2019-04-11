@@ -1,15 +1,19 @@
 ﻿<Properties StartupConfiguration="{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Waypoints.cs">
     <Files>
-      <File FileName="Assets/Waypoints.cs" Line="19" Column="1" />
-      <File FileName="Assets/Enemy.cs" Line="14" Column="18" />
+      <File FileName="Assets/Scripts/WaySpawner.cs" Line="19" Column="10" />
+      <File FileName="Assets/Scripts/Turret.cs" Line="25" Column="26" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="30" Column="25" />
+      <File FileName="Assets/Scripts/Waypoints.cs" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Tower Defense" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Enemy.cs" selected="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="Waypoints.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
