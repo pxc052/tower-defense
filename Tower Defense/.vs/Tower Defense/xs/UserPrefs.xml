@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BuildManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Bullet.cs">
     <Files>
-      <File FileName="Assets/Scripts/Shop.cs" Line="24" Column="1" />
-      <File FileName="Assets/Scripts/BuildManager.cs" Line="10" Column="37" />
+      <File FileName="Assets/Scripts/Shop.cs" Line="20" Column="6" />
+      <File FileName="Assets/Scripts/BuildManager.cs" Line="10" Column="44" />
+      <File FileName="Assets/Scripts/Bullet.cs" Line="24" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
           <Node name="Tower Defense" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="BuildManager.cs" selected="True" />
+                <Node name="Bullet.cs" selected="True" />
               </Node>
             </Node>
           </Node>
