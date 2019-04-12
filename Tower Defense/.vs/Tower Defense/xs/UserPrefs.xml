@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerStats.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MoneyUI.cs">
     <Files>
       <File FileName="Assets/Scripts/Shop.cs" Line="26" Column="1" />
       <File FileName="Assets/Scripts/TurretBluePrint.cs" Line="10" Column="2" />
-      <File FileName="Assets/Scripts/BuildManager.cs" Line="9" Column="1" />
-      <File FileName="Assets/Scripts/Node.cs" Line="13" Column="22" />
-      <File FileName="Assets/PlayerStats.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BuildManager.cs" Line="11" Column="80" />
+      <File FileName="Assets/Scripts/Node.cs" Line="10" Column="38" />
+      <File FileName="Assets/Scripts/PlayerStats.cs" Line="10" Column="17" />
+      <File FileName="Assets/Scripts/WaySpawner.cs" Line="25" Column="55" />
+      <File FileName="Assets/MoneyUI.cs" Line="7" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +15,7 @@
           <Node name="Tower Defense" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True" />
-              <Node name="PlayerStats.cs" selected="True" />
+              <Node name="MoneyUI.cs" selected="True" />
             </Node>
           </Node>
         </State>

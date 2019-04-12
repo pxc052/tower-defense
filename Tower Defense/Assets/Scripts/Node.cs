@@ -7,6 +7,7 @@ public class Node : MonoBehaviour
 {
 
     public Color hoverColor;
+    public Color notEnoughMoneyColor;
     public Vector3 positionOffset;
     private Color startColor;
     private Renderer rend;
@@ -46,7 +47,6 @@ public class Node : MonoBehaviour
 
     void OnMouseEnter()
     {
-
         if (EventSystem.current.IsPointerOverGameObject())
         {
             return;
@@ -56,7 +56,14 @@ public class Node : MonoBehaviour
         {
             return;
         }
-        rend.material.color = hoverColor;
+
+        if (buildManager.HasMoney)
+        {
+            rend.material.color = hoverColor;
+        } else
+        {
+            rend.material.color = notEnoughMoneyColor;
+        }
     }
 
     void OnMouseExit()
