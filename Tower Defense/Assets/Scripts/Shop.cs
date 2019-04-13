@@ -7,6 +7,7 @@ public class Shop : MonoBehaviour
     BuildManager buildManager;
     public TurretBluePrint standarTurret;
     public TurretBluePrint missileLauncher;
+    public TurretBluePrint laserBeamer;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,5 +22,10 @@ public class Shop : MonoBehaviour
     public void SelectMissileLaucher()
     {
         buildManager.SelectTurretToBuild(missileLauncher);
+    }
+
+    public void SelectLaserBeamer()
+    {
+        buildManager.SelectTurretToBuild(laserBeamer);
     }
 }
